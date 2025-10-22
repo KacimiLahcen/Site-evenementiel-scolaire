@@ -1,0 +1,128 @@
+:root{
+    --main_color:  #9B0014;
+    --back_up: #7B1212;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Events{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+#Events .Top{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    height: auto;
+}
+#Events .Top .welcome h1{
+    color: #9B0014;
+}
+#Events .Top .welcome span{
+display: inline-block;
+  border-bottom: 4px solid #9B0014;
+  padding-bottom: 4px;
+  width: 100%;
+}
+
+#Events .Top .welcome p{
+    font-size: larger;
+    margin-top: 53px;
+}
+
+#Events .Bottom{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 49px;
+    
+}
+#Events .Bottom .headline h1{
+font-size: 30px;
+}
+#Events .Bottom .cards{
+    padding: 30px;
+    margin-top: 60px;
+    background: #ffffff;
+    width: 100%;
+    height: auto;
+    gap: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+#Events .Bottom .card{
+    width: 300px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    border: 2px solid;
+    box-shadow: 0 8px 20px black;
+    transition: all 0.5s ease;
+}
+#Events .Bottom .card .Top{
+    width: 100%;
+    height: 320px;
+     background-image: url("/images/ChatGPT\ Image\ Oct\ 22\,\ 2025\,\ 02_25_09\ PM.png");
+    background-size: cover;
+    background-position: center;
+}
+#Events .Bottom .card .Bottom{
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+padding: 10px;
+}
+
+#Events .Bottom .card .Bottom h1{
+
+}
+#Events .Bottom .card .Bottom span{
+    display: inline-block;
+  border-bottom: 4px solid #9B0014;
+  padding-bottom: 4px;
+  width: 50%;
+}
+#Events .info{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+#Events .info .des p{
+    color: rgba(0, 0, 0,0.5);
+}
+#Events .info .time_location{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#Events .info .time_location p{
+    text-decoration: solid;
+    font-size: 20px;
+color: #7B1212;
+}
+
+#Events .Bottom .card:hover {
+transform: translateY(-20px);
+box-shadow: 0 8px 20px #9B0014;
+}
+
+    
