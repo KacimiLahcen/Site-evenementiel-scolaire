@@ -6,173 +6,175 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../assets/CSS/programme.css">
+    <link rel="stylesheet" href="../assets/CSS/index.css">
 </head>
 
 <body>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">
+                 <img class="img-logo" src="../images/logo.png" alt="logo">
+            </a>
+            <div class="burger-menu" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="navMenu">
+                <li><a href="index.html" onclick="closeMenu()">Accueil</a></li>
+                <li><a href="pages/formations.html" onclick="closeMenu()">Programme</a></li>
+                <li><a href="pages/evenements.html" onclick="closeMenu()">Activités</a></li>
+                <li><a href="pages/temoignages.html" onclick="closeMenu()">Inscription</a></li>
+                <li><a href="pages/contact.html" onclick="closeMenu()">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="all-title">
+            <h1 class="title">Programme <span>de la journée</span></h1>
+            <p class="text">Découvrez le planning détaillé de cette journée spéciale.<span> Toutes les activités sont gratuites
+                et ouvertes à tous.</span> 
+            </p>
+
+        </div>
     <section class="programme">
-
-        <div class="right-white">
-            <h1 class="title">Programme </h1>
-            <p class="text">Découvrez le planning détaillé de cette journée spéciale.</p>
-            <div class="timeline">
-                <div class="text-container">
-                    <div class="con-text">
-                        Ateliers scientifiques - Session 1
-                    </div>
-                    <span class="line"></span>
-                    <div class="paragraph">
-                        Première session d'ateliers pratiques en sciences. Expériences de
-                        chimie, observations au microscope et démonstrations physiques.
-                        Inscription sur place.
-                    </div>
+        
+        <div class="line-center"></div>
+        <div class="timeline">
+            <div class="text-container">
+                <div class="con-text">
+                    Accueil et cérémonie d'ouverture
                 </div>
-                <div class="cercle-out">
-                    <div class="cercle-in">
-                        <p> 09:30</p>
-                        <p>-</p>
-                        <p>11:00</p>
-                    </div>
+                <span class="line"></span>
+                <div class="paragraph">
+                    Mot de bienvenue du directeur dans l'amphithéâtre principal.Présentation
+                    générale de l'établissement et du déroulement de la journée.
                 </div>
-
-
             </div>
-            <div class="timeline">
-                <div class="text-container">
-                    <div class="con-text">
-                        Pause déjeuner
-                    </div>
-                    <span class="line"></span>
-                    <div class="paragraph">
-                        Buffet gratuit préparé par les élèves de la section restauration.
-                        Spécialités variées et produits locaux. Cafétéria ouverte.
-                    </div>
+            <div class="connector"></div>
+            <div class="cercle-out">
+                <div class="cercle-in">
+                    <p> 09:00</p>
+                    <p>-</p>
+                    <p>09:30</p>
                 </div>
-                <div class="cercle-out">
-                    <div class="cercle-in">
-                        <p> 12:30</p>
-                        <p>-</p>
-                        <p>14:00</p>
-                    </div>
-                </div>
-
-
             </div>
-            <div class="timeline">
-                <div class="text-container">
-                    <div class="con-text">
-                        Technologies et innovation
-                    </div>
-                    <span class="line"></span>
-                    <div class="paragraph">
-                        Découverte de nos équipements informatiques. Ateliers de
-                        programmation et robotique. Démonstrations d'impression
-                        3D et réalité virtuelle.
-                    </div>
-                </div>
-                <div class="cercle-out">
-                    <div class="cercle-in">
-                        <p>16:00</p>
-                        <p>-</p>
-                        <p>17:30</p>
-                    </div>
-                </div>
 
-
-            </div>
-        </div>
-        <div class="right-red">
-            <h1 class="white-text"> de la journée</h1>
-            <span class="white-text"> Toutes les activités sont gratuites et ouvertes à tous.</span>
-            <div class="timeline1">
-                <div class="cercle-out">
-                    <div class="cercle-in">
-                        <p> 09:00</p>
-                        <p>-</p>
-                        <p>09:30</p>
-                    </div>
-                </div>
-                <div class="text-container">
-                    <div class="con-text">
-                        Accueil et cérémonie d'ouverture
-                    </div>
-                    <span class="line"></span>
-                    <div class="paragraph">
-                        Mot de bienvenue du directeur dans l'amphithéâtre principal.Présentation
-                        générale de l'établissement et du déroulement de la journée.
-                    </div>
-                </div>
-
-            </div>
-            <div class="timeline1">
-                <div class="cercle-out">
-                    <div class="cercle-in">
-                        <p> 11:00</p>
-                        <p>-</p>
-                        <p>12:30</p>
-                    </div>
-                </div>
-                <div class="text-container">
-                    <div class="con-text">
-                        Démonstrations artistiques et musicales
-                    </div>
-                    <span class="line"></span>
-                    <div class="paragraph">
-                        Concert de l'orchestre de l'école, exposition des travaux d'élèves,
-                        démonstrations de peinture en direct. Visite libre des salles d'art.
-                    </div>
-                </div>
-
-            </div>
-            <div class="timeline1">
-                <div class="cercle-out">
-                    <div class="cercle-in">
-                        <p> 14:00</p>
-                        <p>-</p>
-                        <p>16:00</p>
-                    </div>
-                </div>
-                <div class="text-container">
-                    <div class="con-text">
-                        Activités sportives et tournois
-                    </div>
-                    <span class="line"></span>
-                    <div class="paragraph">
-                        Tournois de basketball et football. Initiation à l'escalade. Démonstrations
-                        de gymnastique par nos élèves. Équipements fournis.
-                    </div>
-                </div>
-
-            </div>
-            <div class="timeline1">
-                <div class="cercle-out">
-                    <div class="cercle-in">
-                        <p> 17:30</p>
-                        <p>-</p>
-                        <p>18:00</p>
-                    </div>
-                </div>
-                <div class="text-container">
-                    <div class="con-text">
-                        Clôture et questions-réponses
-                    </div>
-                    <span class="line"></span>
-                    <div class="paragraph">
-                        Session de questions avec l'équipe pédagogique. Informations sur
-                        les inscriptions pour l'année prochaine. Tombola avec de nombreux lots
-                        à gagner.
-                    </div>
-                </div>
-
-            </div>
         </div>
 
+        <div class="timeline">
 
+            <div class="text-container">
+                <div class="con-text">
+                    Ateliers scientifiques - Session 1
+                </div>
+                <span class="line"></span>
+                <div class="paragraph">
+                    Première session d'ateliers pratiques en sciences. Expériences de
+                    chimie, observations au microscope et démonstrations physiques.
+                    Inscription sur place.
+                </div>
+            </div>
+            <div class="connector"></div>
+            <div class="cercle-out">
+                <div class="cercle-in">
+                    <p> 09:30</p>
+                    <p>-</p>
+                    <p>11:00</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline">
+            
+            
+            <div class="text-container">
+                <div class="con-text">
+                    Pause déjeuner
+                </div>
+                <span class="line"></span>
+                <div class="paragraph">
+                    Buffet gratuit préparé par les élèves de la section restauration.
+                    Spécialités variées et produits locaux. Cafétéria ouverte.
+                </div>
+            </div>
+            <div class="connector"></div>
+            <div class="cercle-out">
+                <div class="cercle-in">
+                    <p> 12:30</p>
+                    <p>-</p>
+                    <p>14:00</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline">
+           
+            
+            <div class="text-container">
+                <div class="con-text">
+                    Activités sportives et tournois
+                </div>
+                <span class="line"></span>
+                <div class="paragraph">
+                    Tournois de basketball et football. Initiation à l'escalade. Démonstrations
+                    de gymnastique par nos élèves. Équipements fournis.
+                </div>
+            </div>
+            <div class="connector"></div>
+             <div class="cercle-out">
+                <div class="cercle-in">
+                    <p> 14:00</p>
+                    <p>-</p>
+                    <p>16:00</p>
+                </div>
+            </div>
 
+        </div>
+        <div class="timeline">
+            
+            
+            <div class="text-container">
+                <div class="con-text">
+                    Technologies et innovation
+                </div>
+                <span class="line"></span>
+                <div class="paragraph">
+                    Découverte de nos équipements informatiques. Ateliers de
+                    programmation et robotique. Démonstrations d'impression
+                    3D et réalité virtuelle.
+                </div>
+            </div>
+            <div class="connector"></div>
+            <div class="cercle-out">
+                <div class="cercle-in">
+                    <p>16:00</p>
+                    <p>-</p>
+                    <p>17:30</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline">
+           
+            
+            <div class="text-container">
+                <div class="con-text">
+                    Clôture et questions-réponses
+                </div>
+                <span class="line"></span>
+                <div class="paragraph">
+                    Session de questions avec l'équipe pédagogique. Informations sur
+                    les inscriptions pour l'année prochaine. Tombola avec de nombreux lots
+                    à gagner.
+                </div>
+            </div>
+            <div class="connector"></div>
+             <div class="cercle-out">
+                <div class="cercle-in">
+                    <p> 17:30</p>
+                    <p>-</p>
+                    <p>18:00</p>
+                </div>
+            </div>
 
-
-
-
-
+        </div>
     </section>
 </body>
 
