@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITE ÉVÉNEMENTIEL SCOLAIRE</title>
+    <link rel="stylesheet" href="assets/CSS/index.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="logo"
+                    style="width: auto; height: 2.5rem; margin-bottom: -10%; margin-top: -10%;">
+            </a>
+            <div class="burger-menu" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="navMenu">
+                <li><a href="index.html" onclick="closeMenu()">Accueil</a></li>
+                <li><a href="pages/formations.html" onclick="closeMenu()">Programme</a></li>
+                <li><a href="pages/evenements.html" onclick="closeMenu()">Activités</a></li>
+                <li><a href="pages/temoignages.html" onclick="closeMenu()">Inscription</a></li>
+                <li><a href="pages/contact.html" onclick="closeMenu()">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="accueil" id="accueil">
+        <div class="accueil-border">
+
+            <div class="accueil-content">
+                <div class="accueil-img">
+                    <img src="images/home1.jpg" alt="Photo de la journée portes ouvertes de l’établissement">
+                </div>
+
+                <h2>Une journée pour découvrir notre établissement</h2>
+
+                <h3>
+                    Nous sommes heureux de vous accueillir pour cette journée spéciale.<br>
+                    Venez découvrir nos installations, rencontrer nos enseignants et participer à de nombreuses
+                    activités.
+                </h3>
+
+                <h4>Cette journée est l'occasion idéale pour :</h4>
+
+                <ul>
+                    <li>Visiter nos locaux et nos équipements modernes</li>
+                    <li>Échanger avec nos professeurs et notre équipe pédagogique</li>
+                    <li>Participer à des ateliers pratiques dans différentes disciplines</li>
+                    <li>Découvrir nos options et nos parcours éducatifs</li>
+                    <li>Obtenir des informations sur les modalités d'inscription</li>
+                </ul>
+            </div>
+
+            <div class="accueil-cards">
+
+                <div class="card">
+                    <img src="images/pexels-daiangan-102127.jpg" alt="photo art">
+                    <div class="card-text">
+                        <p>Explorez notre espace artistique et découvrez les créations de nos élèves en peinture,
+                            sculpture et arts numériques.</p>
+                        <a href="#" class="btn">En savoir plus</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="images/pexels-jeshoots-com-147458-714699.jpg" alt="photo science">
+                    <div class="card-text">
+                        <p>Découvrez nos laboratoires équipés et participez à des expériences fascinantes en physique,
+                            chimie et biologie.</p>
+                        <a href="#" class="btn">En savoir plus</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="images/pexels-pixabay-163444.jpg" alt="photo sport">
+                    <div class="card-text">
+                        <p>Testez notre complexe sportif avec gymnase, terrains extérieurs et mur d'escalade. Tournois
+                            organisés toute la journée.</p>
+                        <a href="#" class="btn">En savoir plus</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
