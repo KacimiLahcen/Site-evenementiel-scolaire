@@ -45,10 +45,14 @@ body {
 .registeter_section{
     width: 80%;
 }
+.registeter_section .writing_sec{
+  width: 100%;
+}
 .registeter_section form {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  align-items: center;
 }
 
 label {
@@ -83,6 +87,7 @@ button {
   font-size: 1rem;
   cursor: pointer;
   transition:all 0.3s ease;
+  width: 40%;
 }
 
 button:hover {
