@@ -1,21 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Lycée Excellence</title>
+  <link rel="stylesheet" href="../assets/CSS/contact.css" />
 </head>
-<body style=" margin: 10%;">
-    
-    <div style="display:flex; flex-direction: row; flex-wrap: wrap;  flex: 4; height: 100%; background-color: gray; border-radius: 20px; ">
-        <div style="flex: 3;">contactez nous
-            <img src="Screenshot 2025-10-20 230840.png">
+<body>
 
+<nav>
+        <div class="container">
+            <a href="../index.html" class="logo">
+                 <img src="../images/logo.png" alt="logo" style="width: auto; height: 2.5rem; margin-bottom: -10%; margin-top: -10%;">
+            </a>
+            <div class="burger-menu" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="navMenu">
+                <li><a href="../index.html" onclick="closeMenu()">Accueil</a></li>
+                <li><a href="programme.html" onclick="closeMenu()">Programme</a></li>
+                <li><a href="events.html" onclick="closeMenu()">Activités</a></li>
+                <li><a href="Register.html" onclick="closeMenu()">Inscription</a></li>
+                <li><a href="contact.html" onclick="closeMenu()">Contact</a></li>
+            </ul>
         </div>
-        <div style="flex: 1; background-color: brown; border-radius: 20px">
-            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d831.4831079806626!2d-9.4201588!3d30.365880200000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3c5a6e0a7192d%3A0xee9698bec43ca6cd!2sChampions%20Factory!5e1!3m2!1sfr!2sma!4v1703674558772!5m2!1sfr!2sma" width="20%" height="30%" style="border:0; position: absolute; margin-top:5%; margin-left: -10rem; border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </nav>
+
+
+
+  <main class="contact-page">
+    <div class="card">
+      <section class="left">
+        <h1 class="title">Nous contacter:</h1>
+        <p class="paragraph">
+          N'hésitez pas à nous contacter pour toute information complémentaire sur notre
+          journée portes ouvertes ou sur notre établissement.
+        </p>
+
+        <form class="contact-form" action="#" method="post" novalidate>
+          <input id="name" name="name" type="text" placeholder="Nom" required />
+
+          <input id="email" name="email" type="email" placeholder="Votre e-mail" required />
+
+          <textarea id="message" name="message" rows="5" placeholder="Objet de votre demande..." required></textarea>
+
+          <button type="submit" class="btn">Envoyer</button>
+        </form>
+
+        <div class="contact-info">
+          <div class="info-item">
+            <span class="icon">📞</span>
+            <div>
+              <strong>Téléphone</strong><br />
+              01 23 45 67 89
+            </div>
+          </div>
+
+          <div class="info-item">
+            <span class="icon">✉️</span>
+            <div>
+              <strong>Email</strong><br />
+              contact@lycee-excellence.fr
+            </div>
+          </div>
+
+          <div class="info-item">
+            <span class="icon">⏰</span>
+            <div>
+              <strong>Horaires</strong><br />
+              Lun - Ven : 8h00 - 18h00<br />
+              Samedi : 9h00 - 12h00
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="right">
+
+        <div class="red-panel"></div>
+
         
-            card maps</div>
+        <div class="map-card">
+          <iframe
+            title="Nador, Morocco"
+            src="https://www.google.com/maps?q=Nador,+Morocco&hl=fr&z=13&output=embed"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
     </div>
+  </main>
+  <script src="../assets/JS/script.js"></script>
 </body>
 </html>
