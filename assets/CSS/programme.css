@@ -9,7 +9,7 @@
 
 /* ======================= programme section ======================= */
 .programme{
-    height: 1400px;
+    height: 1500px;
 }
 .programme::after {
     content: '';
@@ -38,7 +38,7 @@
 
 .line-center {
     position: absolute;
-    height: 1400px;
+    height: 1500px;
     border: 3px dashed #ffffff;
     left: 50%;
 }

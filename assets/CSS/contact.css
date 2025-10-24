@@ -1,6 +1,5 @@
 /* Reset & base */
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -11,21 +10,14 @@
   --text: #6a6a6a;
 }
 
-html,
-body {
-  height: 100%;
-  margin-top: 2%;
-}
 
-body {
-  font-family: sans-serif;
-  display: flex;
-  justify-content: center;
-}
+
 
 .contact-page{
   display: flex;
   justify-content: center;
+  height: 140vh;
+  align-items: center;
 }
 
 .card {
