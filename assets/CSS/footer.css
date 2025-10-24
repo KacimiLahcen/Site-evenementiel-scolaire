@@ -2,7 +2,6 @@
    GLOBAL RESET & VARIABLES
 ========================= */
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -18,14 +17,11 @@
 ========================= */
 html, body {
   height: 100%;
-  margin-top: 4%;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   /* padding: 3rem; */
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
 }
@@ -43,6 +39,9 @@ body {
   flex-wrap: wrap;
   text-align: center;
   border-top: 2px solid var(--light-gray);
+  width: 100%;
+  position: relative;
+  z-index: 1;
 }
 
 .footer-logo {

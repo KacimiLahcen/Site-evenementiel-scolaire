@@ -4,9 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formulaire d'inscription</title>
-  <link rel="stylesheet" href="/assets/CSS/Registers.css">
+  <link rel="stylesheet" href="../assets/CSS/Registers.css">
+  <link rel="stylesheet" href="../assets/CSS/navbar.css">
+  <link rel="stylesheet" href="../assets/CSS/footer.css">
 </head>
 <body>
+  <nav>
+        <div class="container">
+            <a href="index.html" class="logo">
+                 <img class="img-logo" src="../images/logo.png" alt="logo">
+            </a>
+            <div class="burger-menu" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="navMenu">
+                <li><a href="../index.html" onclick="closeMenu()">Accueil</a></li>
+                <li><a href="programme.html" onclick="closeMenu()">Programme</a></li>
+                <li><a href="events.html" onclick="closeMenu()">Activités</a></li>
+                <li><a href="Register.html" onclick="closeMenu()">Inscription</a></li>
+                <li><a href="contact.html" onclick="closeMenu()">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
   <section id="registeter">
     <div class="main_section">
       <div class="headline">
@@ -72,5 +93,14 @@
       </div>
     </div>
   </section>
+   <footer class="footer">
+
+    <div class="footer-center">
+    <img src="../images/logo.png" alt="Lycée Excellence Logo" class="footer-logo">
+      <p>© 2025 Lycée Excellence - Tous droits réservés</p>
+      <p>Développé par l'équipe informatique de l'établissement</p>
+    </div>
+  </footer>
+    <script src="../assets/JS/script.js"></script>
 </body>
 </html>
