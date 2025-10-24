@@ -18,12 +18,10 @@
 ========================= */
 html, body {
   height: 100%;
-  margin-top: 4%;
 }
 
 body {
   font-family: "Poppins", sans-serif;
-  /* padding: 3rem; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
