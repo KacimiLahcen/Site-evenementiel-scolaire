@@ -130,8 +130,6 @@
     padding: 10px;
 }
 
-#Events .Bottom .card .Bottom h1 {}
-
 #Events .Bottom .card .Bottom span {
     display: inline-block;
     border-bottom: 4px solid #9B0014;
@@ -248,8 +246,6 @@
     padding: 10px;
 }
 
-#Events .Bottom-2 .card .Bottom h1 {}
-
 #Events .Bottom-2 .card .Bottom span {
     display: inline-block;
     border-bottom: 4px solid #9B0014;
@@ -359,8 +355,6 @@
     text-align: center;
     padding: 10px;
 }
-
-#Events .Bottom-3 .card .Bottom h1 {}
 
 #Events .Bottom-3 .card .Bottom span {
     display: inline-block;
