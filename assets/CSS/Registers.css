@@ -6,21 +6,18 @@
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
   background: var(--bg-color);
   color: var(--text-color);
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   min-height: 100vh;
 }
 
 #registeter {
-  width: 100%;
-  max-width: 1000px;
+  display: flex;
+  justify-content: center;
   padding: 20px;
+  margin-top: 4rem;
 }
 
 .main_section {
