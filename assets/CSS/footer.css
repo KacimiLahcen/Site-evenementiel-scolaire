@@ -21,6 +21,8 @@ html, body {
 
 body {
   font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
   /* padding: 3rem; */
   justify-content: space-between;
   min-height: 100vh;
